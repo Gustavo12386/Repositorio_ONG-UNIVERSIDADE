@@ -6,8 +6,9 @@
     include_once('config.php');
     $email = $_POST['email'];
     $senha = $_POST['senha'];
+    $senhamd5 = md5($senha);
     
-    $sql = "SELECT * FROM tabela WHERE email = '$email' and '$senha'";
+    $sql = "SELECT * FROM tabela WHERE email = '$email' and '$senhamd5'";
     $result = $conexao->query($sql);
     
     if(mysqli_num_rows($result) < 1)
@@ -19,7 +20,7 @@
     else
     {
       $_SESSION['email'] = $email;
-      $_SESSION['senha'] = $senha;  
+      $_SESSION['senha'] = $senhamd5;  
       header('Location: paginainicial.php');
     }
   }
