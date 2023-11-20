@@ -12,8 +12,10 @@
     $telefone = $_POST['telefone'];
     $contato = $_POST['contato_ong'];
 
+    $senhamd5 = md5($senha);
+  
     $result = mysqli_query($conexao, "INSERT INTO tabela(nome_ong, nome_representante, email, senha, cnpj, endereco, telefone, contato_ong)
-    VALUES('$nome', '$representante', '$email', '$senha', '$cnpj', '$endereco', '$telefone', '$contato')");
+    VALUES('$nome', '$representante', '$email', '$senhamd5', '$cnpj', '$endereco', '$telefone', '$contato')");
  }
 
 ?>
