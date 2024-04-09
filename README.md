@@ -1,8 +1,8 @@
 # Repositorio_ONG-UNIVERSIDADE
 
 ## Sobre o projeto
-- O projeto ONG+UNIVERSIDADE é um portal que tem como objetivo as ongs estabelecerem um contato mais próximo com a Universidade Anahnguera, essa aplicação
-se trata de um projeto de extensão da Universidade Anhanguera.
+- O projeto ONG+UNIVERSIDADE é um portal que foi desenvolvido como parte de uma disciplina do curso de Sistemas de Informação da Universidade Anhanguera, na cidade de Salvador,
+chamada Projeto de Extensão. Seu objetivo é possibilitar às ONGs estabelecerem um contato mais próximo com a instituição.
 - Tecnologias Utilizadas: HTML, CSS, PHP, Bootstrap, Rizal CSS e MySQL.
 - link-site: https://www.onguniversidade.rf.gd
 
