@@ -3,7 +3,7 @@
 ## Sobre o projeto
 - O projeto ONG+UNIVERSIDADE é um portal que tem como objetivo as ongs estabelecerem um contato mais próximo com a Universidade Anahnguera, essa aplicação
 se trata de um projeto de extensão da Universidade Anhanguera.
-- Tecnologias Utilizadas: HTML, CSS, PHP, Bootstrap, Rizal CSS.
+- Tecnologias Utilizadas: HTML, CSS, PHP, Bootstrap, Rizal CSS e MySQL.
 - link-site: https://www.onguniversidade.rf.gd
 
 ## Imagens
