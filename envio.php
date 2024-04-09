@@ -73,7 +73,9 @@
     </nav>
     <br>
     <?php
-     echo "<h1>Mensagem Enviada com Sucesso!</h1>";    
+      if(!empty($_GET['envio'])){
+        echo "<h1>Mensagem Enviada com Sucesso!</h1>";  
+       }    
     ?> 
     <button class="login"><a href="paginainicial.php">voltar a página inicial</a></button>   
 </body>
