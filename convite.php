@@ -36,7 +36,7 @@ if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)
    $mail->Body = $mensagem;
    $mail->send();   
  
-   header("Location: envio.php");
+    header("Location: envio.php?envio=success");
    
  }
 
